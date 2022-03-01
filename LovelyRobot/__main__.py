@@ -41,7 +41,7 @@ from telegram.error import (
     ChatMigrated,
     NetworkError,
     TelegramError,
-    TimedOut,
+    TimedOut*ॐ
     Unauthorized,
 )
 from telegram.ext import (
@@ -79,39 +79,37 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-LovelyRobot_IMG = "https://telegra.ph/file/a09bb2525c64301d31990.jpg"
+LovelyRobot_IMG = "https://te.legra.ph/file/7b3c86cb9c422e7a13af2.jpg"
+
 
 PM_START_TEXT = """
-[🌈](https://telegra.ph/file/469f704f4898f10f9cf3b.jpg) ' ☞ ✰Hello... Friends ─ 「[{}]」
-Im Powerfull Management Bot And I Will Help In Managing Your Group.
-➖➖➖➖➖➖➖➖➖➖➖➖➖
-× *Uptime:* {}
+[🌈](https://te.legra.ph/file/1bebf760826f0150cef77.jpg) ' ☞ ✰Hello... Dear ─ 「[{}]」
+Im Cute😍 baby 👶 Themed Management Bot And I Will Help In Managing Your Group.
+~~❤️~~❤️~~❤️~~❤️~~❤️~~❤️~~❤️~~
+× *baby 👶 Born Uptime:* {}
 × {} *User, Across* {} *Chats.*
-➖➖➖➖➖➖➖➖➖➖➖➖➖
+~~❤️~~❤️~~❤️~~❤️~~❤️~~❤️~~❤️~~
 """
 buttons = [
     [
                         InlineKeyboardButton(
-                            text="Add Lovely To Your Group",
-                            url="t.me/Lovely_Ro_bot?startgroup=true"),
+                            text="👶𝐵𝒶𝒷𝓎 𝒜𝓃𝓈𝒾 𝒜𝒟𝒟 𝒾𝓃 𝓎𝑜𝓊𝓇 𝒢𝓇𝑜𝓊𝓅👶",
+                            url="t.me/ansi_Ro_bot?startgroup=true"),
                     ],
                    [
-                       InlineKeyboardButton(text="[► Help ◄]", callback_data="help_back"),
-                      InlineKeyboardButton(text="About ❔", callback_data="LovelyRobot_"),
-                       InlineKeyboardButton(text="[► Basic ◄]", callback_data="LovelyRobot_basichelp"),
+                       InlineKeyboardButton(text="< HΞLP >", callback_data="help_back"),
+                      InlineKeyboardButton(text="𝓐𝓷𝓼𝓲👶", callback_data="LovelyRobot_"),
+                       InlineKeyboardButton(text="< 𝔹𝕒𝕤𝕚𝕔 >", callback_data="LovelyRobot_basichelp"),
                      
                      ],
-                    [                  
+                    [                                         
                        InlineKeyboardButton(
-                             text="🚑 Support",
-                             url="https://t.me/Blaze_Support"),
-                       InlineKeyboardButton(
-                             text="Updates 📢",
-                             url="https://t.me/The_Blaze_Network")
+                             text="𝚄𝚙𝚍𝚊𝚝𝚎𝚜 🤷‍♀️",
+                             url="https://t.me/ansi_updates")
                      ],
                     [
                        InlineKeyboardButton(
-                          text="♻️ Source Code ♻️", url="https://github.com/Official-afk-xD/Lovely-Robot")
+                          text="ᖴᗴᗴᗪ ᗷᗩᑕᛕ", url="https://t.me/jackabout/92")
 
                      ], 
     ]
@@ -119,15 +117,14 @@ buttons = [
 HELP_STRINGS = """
 *➪ MAIN COMMANDS ➪*
 
-➪ /start - `Starts me! Your probably already used this.`
-➪ /help - `Click this I ll let you know about myself!`
-➪ /settings - `in PM: will send you your settings for all supported modules.`
-➪ *In A Group: Will Redirect You To Pm With All That Chats Settings.*"""
+⭐ /start - `Starts me! Your probably already used this.`
+⭐ /help - `Click this I ll let you know about myself!`
+⭐ /settings - `in PM: will send you your settings for all supported modules.`
+⭐In A Group: Will Redirect You To Pm With All That Chats Settings."""
 
 
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
- @Log_afk 💕"""
+DONATE_STRING = """Thank you, if you want to donate in Ansi so add this bot in some groups.  💕"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -243,12 +240,12 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_photo(
-            LovelyRobot_IMG, caption= "Heya, Lovely Robot Here.. How can ! I help you?🙂\n<b>Haven't slept since:</b> <code>{}</code>".format(
+            LovelyRobot_IMG, caption= "Heya, Ansi😳 Robot Here.. How can ! I help you?🙂\n<b>Haven't slept since:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="⛦ Support ⛦", url="t.me/UNIQUE_SOCIETY")]]
+                [[InlineKeyboardButton(text="💞ᗰᗝᗰ💗ᗪᗩᗪ💞", url="https://t.me/ansi_updates/23")]]
             ),
         )
 
@@ -325,7 +322,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "`Hᴇʀᴇ Iꜱ Tʜᴇ Hᴇʟᴘ`「*{}*」 `Mᴏᴅᴜʟᴇ:`\n".format(
+                "`𝒜𝓃𝓈𝒾 👶 Hᴇʀᴇ Iꜱ Tʜᴇ Hᴇʟᴘ`「*{}*」 `Mᴏᴅᴜʟᴇ:`\n".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
@@ -382,24 +379,21 @@ def LovelyRobot_about_callback(update, context):
     query = update.callback_query
     if query.data == "LovelyRobot_":
         query.message.edit_text(
-            text="""➪ A ᴘᴏᴡᴇʀғᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ʙᴜɪʟᴛ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇᴀsɪʟʏ
-            \n➪ Here's the basic help regarding use of Lovely Robot.
+            text="""⭐ A ᴘᴏᴡᴇʀғᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ʙᴜɪʟᴛ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇᴀsɪʟʏ
+            \n⭐ Here's the basic help regarding use of 𝒜𝓃𝓈𝒾 👶 Robot.
             
-            \n➪ Almost all modules usage defined in the help menu, checkout by sending `/help`
-            \n➪ Report error/bugs click the Button""",
+            \n⭐ Almost all modules usage defined in the help menu, checkout by sending `/help`
+            \n⭐ Report error/bugs click the Button""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="🚑 Support", url="t.me/Blaze_Support"
-                        ),
-                        InlineKeyboardButton(
-                            text="Updates 📢", url="t.me/the_Blaze_Network"
+                            text="𝚄𝚙𝚍𝚊𝚝𝚎𝚜 🤷‍♀️", url="https://t.me/ansi_updates"
                         ),
                     ],
-                    [InlineKeyboardButton(text="⛦ Back ⛦", callback_data="LovelyRobot_back")],
+                    [InlineKeyboardButton(text="⭐ Back ⭐", callback_data="LovelyRobot_back")],
                 ]
             ),
         )
@@ -431,14 +425,9 @@ def LovelyRobot_about_callback(update, context):
                 [
                  [
                     InlineKeyboardButton(text="⭐ Admins", callback_data="LovelyRobot_admin"),
-                    InlineKeyboardButton(text="Notes 🔰", callback_data="LovelyRobot_notes"),
                  ],
                  [
-                    InlineKeyboardButton(text="❔ Founder", callback_data="LovelyRobot_support"),
-                    InlineKeyboardButton(text="Credits ❗", callback_data="LovelyRobot_credit"),
-                 ],
-                 [
-                    InlineKeyboardButton(text="⛦ Back ⛦", callback_data="LovelyRobot_back"),
+                    InlineKeyboardButton(text="⭐ Back ⭐", callback_data="LovelyRobot_back"),
                  
                  ]
                 ]
@@ -447,7 +436,7 @@ def LovelyRobot_about_callback(update, context):
     elif query.data == "LovelyRobot_admin":
         query.message.edit_text(
             text=f"*⛦➪ Let's make your group bit effective now*"
-            f"\n➪ Congragulations, ⛦ Lovely ⛦ now ready to manage your group."
+            f"\n➪ Congragulations, 𝒜𝓃𝓈𝒾 👶 now ready to manage your group."
             f"\n\n➪ *Admin Tools*"
             f"\n➪ Basic Admin tools help you to protect and powerup your group."
             f"\n➪ You can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -521,8 +510,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text="""⛦➪ Hi..🙂 I'm *LovelyRobot*
-                 \n➪ Here is the [⛦ Source Code ⛦](https://github.com/Official-afk-xD/Lovely-Robot) .""",
+            text="""⛦➪ Hi..🙂 I'm *𝒜𝓃𝓈𝒾 👶*
+                 \n➪ Here is the [💞ᗰᗝᗰ💗ᗪᗩᗪ💞](https://t.me/ansi_updates/23) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -823,7 +812,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[Heya, I am Alive 🙂]", parse_mode=ParseMode.MARKDOWN) 
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "❤️ 𝙈𝙮 𝙡𝙤𝙫𝙚 𝙞𝙨 𝙎𝙩𝙞𝙡𝙡 𝘼𝙡𝙞𝙫𝙚 ❤️", parse_mode=ParseMode.MARKDOWN) 
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
