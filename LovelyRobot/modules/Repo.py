@@ -6,20 +6,11 @@ from LovelyRobot.conf import get_str_key
 from LovelyRobot import pbot
  
  # pls don't delete
-REPO_TEXT = "**Lovely [BOT](https://telegra.ph/file/09314a3492d7e68489b75.jpg) will Make Your Groups Secured And it's have a lot of fun features (:  ! \n\n↼ Owner ⇀ : 『 [𝐋ᴏɢ ✘ Ꭺғᴋ xD](t.me/log_afk) 』\n╭──────────────\n┣─ » Python ~ 3.8.6\n┣─ » Update ~ Recently\n╰──────────────\n\n»»» @UNIQUE_SOCIETY «««"
+REPO_TEXT = "*Ansi👶 [BOT](https://te.legra.ph/file/613fc2c835c8799cc8a79.jpg) will Make Your Groups Secured And it's have a lot of fun features (:  ! \n\n↼ Owner ⇀ : 『 [Ansi👶](https://telegra.ph/file/80aebbee694648b175378.mp4) 』\n╭──────────────\n┣─ » Python ~ 3.8.6\n┣─ » Update ~ Recently\n╰──────────────\n\n»»» Ansi👶 «««"
   
 BUTTONS = InlineKeyboardMarkup(
       [[
-        InlineKeyboardButton("ʀᴇᴘᴏꜱɪᴛᴏʀʏ", url=f"https://github.com/Official-afk-xD"),
-        InlineKeyboardButton("Gɪᴛʜᴜʙ", url=f"https://t.me/LOG_AFK"),
-      ],[
-        InlineKeyboardButton("Evil Boy ❣️", url="https://t.me/Evil_xD_boy"),
-        InlineKeyboardButton("Official Afk", url="https://t.me/Official_afk_xD"),
-       InlineKeyboardButton("Support", url="https://t.me/Blaze_support"),
-      ],[
-        InlineKeyboardButton("Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/UNIQUE_SOCIETY"),
-        InlineKeyboardButton("Dᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/Harsh_Pandit_xD"),
-       InlineKeyboardButton("Powered by", url="https://t.me/The_Blaze_network"),
+        InlineKeyboardButton("ʀᴇᴘᴏꜱɪᴛᴏʀʏ", url=f"https://te.legra.ph/file/93cb78f11711e44a5258d.jpg"),        
       ]]
     )
   
