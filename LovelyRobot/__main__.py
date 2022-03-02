@@ -79,7 +79,8 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-LovelyRobot_IMG = "https://te.legra.ph/file/2259d79d7c120f1474085.mp4"
+OMFO_DARMLING = "https://telegra.ph/file/1d14e3af92da4f62402a2.mp4"
+SOMRY_DARLING = "https://telegra.ph/file/89b8850ca6a7d17bbf316.mp4"
 
 
 PM_START_TEXT = """
@@ -243,12 +244,16 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_photo(
-            LovelyRobot_IMG, caption= "Heya, Ansi😳 Robot Here.. How can ! I help you?🙂\n<b>Haven't slept since:</b> <code>{}</code>".format(
+            OMFO_DARMLING, caption= "Heya, Ansi😳 Robot Here.. How can ! I help you?🙂\n<b>Haven't slept since:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="💞ᗰᗝᗰ💗ᗪᗩᗪ💞", url="https://t.me/ansi_updates/23")]]
+                [
+                 [InlineKeyboardButton(text="💞ᗰᗝᗰ💞", url="https://t.me/Its_Andy_ki_Jaan"),
+                  InlineKeyboardButton(text="💞ᗪᗩᗪ💞", url="https://t.me/its_pandit_Andy"),
+                 ],
+                ]
             ),
         )
 
@@ -559,22 +564,20 @@ def get_help(update: Update, context: CallbackContext):
                 ),
             )
             return
-        update.effective_message.reply_text(
-            "Contact me in PM to get the list of possible commands.",
+        update.effective_message.reply_video(SOMRY_DARLING,
+            caption= "Contact me in PM to get the list of possible commands.",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="⛦ Help & Cmd ⛦",
+                            text="Help&Cmd⛦",
                             url="t.me/{}?start=help".format(context.bot.username),
-                        )
-                    ],
-                    [
+                        ),
                         InlineKeyboardButton(
-                            text="⛦ Developer ⛦",
+                            text="Developer⛦",
                             url="https://t.me/{}".format(SUPPORT_CHAT),
-                        )
-                    ],
+                        ),
+                    ],                  
                 ]
             ),
         )
