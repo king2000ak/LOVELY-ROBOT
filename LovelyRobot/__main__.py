@@ -83,7 +83,7 @@ LovelyRobot_IMG = "https://te.legra.ph/file/2259d79d7c120f1474085.mp4"
 
 
 PM_START_TEXT = """
-[🌈](https://te.legra.ph/file/1bebf760826f0150cef77.jpg) ' ☞ ✰Hello... Dear ─ 「[{}]」
+[🌈](https://te.legra.ph/file/93cb78f11711e44a5258d.jpg) ' ☞ ✰Hello... Dear ─ 「[{}]」
 Im Cute😍 baby 👶 Themed Management Bot And I Will Help In Managing Your Group.
 ~~❤️~~❤️~~❤️~~❤️~~❤️~~❤️~~❤️~~
 × *baby 👶 Born Uptime:* {}
@@ -115,13 +115,16 @@ buttons = [
     ]
 
 HELP_STRINGS = """
-*➪ MAIN COMMANDS ➪*
-
-⭐ /start - `Starts me! Your probably already used this.`
-⭐ /help - `Click this I ll let you know about myself!`
-⭐ /settings - `in PM: will send you your settings for all supported modules.`
-⭐In A Group: Will Redirect You To Pm With All That Chats Settings."""
-
+*Ansi👶 is here! 
+I Use My Powers To Help Admins To Manage Their Groups! 
+*Main* commands available :
+ • /help: PM's you this message.
+ • /help <module name>: PM's you info about that module.
+ • /settings:
+   • in PM: will send you your settings for all supported modules.
+   • in a group: will redirect you to pm, with all that chat's settings.
+For all command use /* [or](https://te.legra.ph/file/613fc2c835c8799cc8a79.jpg) *!* 
+"""
 
 
 DONATE_STRING = """Thank you, if you want to donate in Ansi so add this bot in some groups.  💕"""
