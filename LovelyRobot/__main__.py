@@ -79,7 +79,7 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-LovelyRobot_IMG = "https://te.legra.ph/file/7b3c86cb9c422e7a13af2.jpg"
+LovelyRobot_IMG = "https://te.legra.ph/file/2259d79d7c120f1474085.mp4"
 
 
 PM_START_TEXT = """
@@ -104,8 +104,8 @@ buttons = [
                      ],
                     [                                         
                        InlineKeyboardButton(
-                             text="𝚄𝚙𝚍𝚊𝚝𝚎𝚜 🤷‍♀️",
-                             url="https://t.me/ansi_updates")
+                             text="𝔐𝔲𝔰𝔦𝔠 𝔥𝔢𝔩𝔭♪",
+                             url="https://telegra.ph/Music-Player-Commnds-03-02")
                      ],
                     [
                        InlineKeyboardButton(
