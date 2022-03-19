@@ -124,7 +124,7 @@ I Use My Powers To Help Admins To Manage Their Groups!
  • /settings:
    • in PM: will send you your settings for all supported modules.
    • in a group: will redirect you to pm, with all that chat's settings.
-For all command use /* [or](https://te.legra.ph/file/613fc2c835c8799cc8a79.jpg) *!* 
+For all command use /* [.](https://te.legra.ph/file/613fc2c835c8799cc8a79.jpg) *!* 
 """
 
 
