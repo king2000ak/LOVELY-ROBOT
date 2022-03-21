@@ -83,13 +83,20 @@ OMFO_DARMLING = "https://telegra.ph/file/1d14e3af92da4f62402a2.mp4"
 SOMRY_DARLING = "https://telegra.ph/file/89b8850ca6a7d17bbf316.mp4"
 
 
-PM_START_TEXT = """
-[🌈](https://te.legra.ph/file/93cb78f11711e44a5258d.jpg) ' ☞ ✰Hello... Dear ─ 「[{}]」
-Im Cute😍 baby 👶 Themed Management Bot And I Will Help In Managing Your Group.
-~~❤️~~❤️~~❤️~~❤️~~❤️~~❤️~~❤️~~
-× *baby 👶 Born Uptime:* {}
-× {} *User, Across* {} *Chats.*
-~~❤️~~❤️~~❤️~~❤️~~❤️~~❤️~~❤️~~
+PM_START_TEXT = """━━━━━━━ Rose ━━━━━━━
+
+[Rose](t.me/Red_Rosebbot)ɪꜱ ᴀɴ ᴀɴɪᴍᴀᴛᴇᴅ
+ᴛʜᴇᴍᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ 
+ ᴡʜɪᴄʜ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ
+      ᴀɴᴅ ꜱᴇᴄᴜʀᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ
+  ᴡɪᴛʜ ʜᴜɢᴇ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ
+   ᴘʟᴜɢɪɴꜱ ʟɪᴋᴇ ; ꜰɪʟᴛᴇʀꜱ , ɴᴏᴛᴇꜱ , 
+   ᴡᴇᴄᴏᴍᴇ , ɢᴏᴏᴅ ʙʏᴇ , ʙᴀɴɴɪɴɢ , 
+        ᴍᴜᴛɪɴɢ ᴀɴᴅ ᴍᴀɴʏ ᴍᴏʀᴇ.
+
+━━━━━━━ Rose ━━━━━━━
+ {} *User,
+ Across* {} *Chats.*
 """
 buttons = [
     [
