@@ -83,9 +83,9 @@ OMFO_DARMLING = "https://telegra.ph/file/1d14e3af92da4f62402a2.mp4"
 SOMRY_DARLING = "https://telegra.ph/file/89b8850ca6a7d17bbf316.mp4"
 
 
-PM_START_TEXT = """━━━━━━━ Rose ━━━━━━━
+PM_START_TEXT = """━━━━━━━ kissi ━━━━━━━
 
-[Rose](t.me/Red_Rosebbot)ɪꜱ ᴀɴ ᴀɴɪᴍᴀᴛᴇᴅ
+[Kissi](t.me/kissibbot)ɪꜱ ᴀɴ ᴀɴɪᴍᴀᴛᴇᴅ
 ᴛʜᴇᴍᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ 
  ᴡʜɪᴄʜ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ
       ᴀɴᴅ ꜱᴇᴄᴜʀᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ
@@ -94,48 +94,41 @@ PM_START_TEXT = """━━━━━━━ Rose ━━━━━━━
    ᴡᴇᴄᴏᴍᴇ , ɢᴏᴏᴅ ʙʏᴇ , ʙᴀɴɴɪɴɢ , 
         ᴍᴜᴛɪɴɢ ᴀɴᴅ ᴍᴀɴʏ ᴍᴏʀᴇ.
 
-━━━━━━━ Rose ━━━━━━━
- {} *User,
- Across* {} *Chats.*
+━━━━━━━ Kissi ━━━━━━━
+         ≛≛ {} *User,
+         ≛≛ {} *Chats.*
 """
 buttons = [
-    [
-                        InlineKeyboardButton(
-                            text="👶𝐵𝒶𝒷𝓎 𝒜𝓃𝓈𝒾 𝒜𝒟𝒟 𝒾𝓃 𝓎𝑜𝓊𝓇 𝒢𝓇𝑜𝓊𝓅👶",
-                            url="t.me/ansi_Ro_bot?startgroup=true"),
-                    ],
                    [
-                       InlineKeyboardButton(text="< HΞLP >", callback_data="help_back"),
-                      InlineKeyboardButton(text="𝓐𝓷𝓼𝓲👶", callback_data="LovelyRobot_"),
-                       InlineKeyboardButton(text="< 𝔹𝕒𝕤𝕚𝕔 >", callback_data="LovelyRobot_basichelp"),
+                       InlineKeyboardButton(text="😏", url="https://t.me/jackabout/92"),
+                      InlineKeyboardButton(text="💋", callback_data="LovelyRobot_"),
+                       InlineKeyboardButton(text="🤗", callback_data="LovelyRobot_basichelp"),
+                       InlineKeyboardButton(text="🎶", url="https://telegra.ph/Music-Player-Commnds-03-02"),
                      
                      ],
-                    [                                         
-                       InlineKeyboardButton(
-                             text="𝔐𝔲𝔰𝔦𝔠 𝔥𝔢𝔩𝔭♪",
-                             url="https://telegra.ph/Music-Player-Commnds-03-02")
-                     ],
+    [
+                        InlineKeyboardButton(
+                            text="𝒜𝒟𝒟 𝒾𝓃 𝓎𝑜𝓊𝓇 𝒢𝓇𝑜𝓊𝓅👶",
+                            url="t.me/kissibbot?startgroup=true"),
+                    ],
+
                     [
                        InlineKeyboardButton(
-                          text="ᖴᗴᗴᗪ ᗷᗩᑕᛕ", url="https://t.me/jackabout/92")
+                          text="< HΞLP >", callback_data="help_back")
 
                      ], 
     ]
 
 HELP_STRINGS = """
-*Ansi👶 is here! 
-I Use My Powers To Help Admins To Manage Their Groups! 
-*Main* commands available :
- • /help: PM's you this message.
- • /help <module name>: PM's you info about that module.
- • /settings:
-   • in PM: will send you your settings for all supported modules.
-   • in a group: will redirect you to pm, with all that chat's settings.
-For all command use /* [.](https://te.legra.ph/file/613fc2c835c8799cc8a79.jpg) *!* 
+━━━━━━━ Kissi ━━━━━━━
+  ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ
+ɢᴇᴛ ᴜꜱᴀɢᴇ ᴏꜰ ꜱᴘᴇᴄɪꜰɪᴄꜱ ᴄᴏᴍᴍᴀɴᴅ.
+━━━━━━━━━━━━━━━━━━━━━
+       /start : ɢᴇᴛᴛɪɴɢ ʙᴀᴄᴋ ʜᴏᴍᴇ
 """
 
 
-DONATE_STRING = """Thank you, if you want to donate in Ansi so add this bot in some groups.  💕"""
+DONATE_STRING = """Thank you, if you want to donate in kissi so add this bot in some groups.  💕"""
 
 IMPORTED = {}
 MIGRATEABLE = []
